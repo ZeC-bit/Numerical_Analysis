@@ -28,3 +28,19 @@ def gauss(v):
   v = np.dot(l,v)
   return v
 
+v = np.array([0,0,0])
+n = 1
+print("Error of Jacobi Method")
+while(n < 11):
+  print("iteration",n,":",dist([22/101, 35/101, -47/101],jacobi(v)))
+  v = jacobi(v)
+  n = n + 1
+
+print("___________________")
+v = np.array([0,0,0])
+n = 1
+print("Error of Gauss-Seidel Method")
+while(n < 11):
+  print("iteration",n,":",dist([22/101, 35/101, -47/101],gauss(v)))
+  v = gauss(v)
+  n = n + 1
