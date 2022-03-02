@@ -17,3 +17,14 @@ def jacobi(v):
   
   return out
 
+
+def gauss(v):
+  tmp = np.array([-1.0,2.0,3.0])
+  r = np.array([0,-2.0,3.0,0,0,1.0,0,0,0])
+  r = r.reshape((3,3)).copy()
+  v = tmp - np.dot(r,v)
+  l = np.array([0.2,0.0,0.0,0.066666,0.111111,0.0,0.0380952, -0.031746, -0.142857])
+  l = l.reshape((3,3)).copy() 
+  v = np.dot(l,v)
+  return v
+
