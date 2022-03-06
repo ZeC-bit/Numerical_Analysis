@@ -23,3 +23,22 @@ def rk4(f, t0, y0, t1, n):
         y = y + (k1 + k2 + k2 + k3 + k3 + k4) / 6
         vy[i] = y
     return vt, vy
+
+vt, vy = rk4(f, 0, 1, 10, 50)
+vt = vt[::5]
+vy = vy[::5]
+tval =[]
+yval =[]
+err = []
+for i in range(0,10):
+    tval = tval + [vt[i]]
+    yval = yval + [vy[i]]
+    err = err + [vy[i] - (4 + vt[i]**2)**2 / 16]
+plt.figure(1)
+plt.plot(tval,yval)
+plt.ylabel("y estimate")
+plt.xlabel("t")
+plt.figure(2)
+plt.plot(tval,err)
+plt.ylabel("Error of model")
+plt.xlabel("t")
