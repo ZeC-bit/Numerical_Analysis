@@ -6,3 +6,7 @@ This is a collection of algorithms learnt during numerical analysis and optimisa
 # Interpolation 
 
 Newton Interpolation 
+
+
+
+![alt text](http://url/to/img.png)
