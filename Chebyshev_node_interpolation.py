@@ -40,3 +40,4 @@ err = err + result(8)
 err = err + result(16)
 err = err + result(32)
 plt.plot([2,4,8,16,32], err)
+
