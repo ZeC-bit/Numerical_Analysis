@@ -1,8 +1,8 @@
 # function is e^x * cos(x)
 from numpy import poly1d
 import numpy as np
-import math
 import matplotlib.pyplot as plt
+import math
 
 def f(x):
     return math.exp(x)* np.cos(x)
