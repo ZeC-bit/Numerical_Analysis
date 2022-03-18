@@ -54,3 +54,23 @@ However the computational power is the trade off.
 
 **Error Analysis**
 It can be noticed that the local errors of the method accumulates over iterations hence the error increases as t increases from the initial value 0. A method of reducing error would be to implement with a higher order runge-kutta method.
+
+
+
+
+
+# Solving Linear-System equations
+
+**Gauss-Seidel, Jacobi Iterative Method
+
+![Jacobi_Question](https://user-images.githubusercontent.com/74304944/158992557-6df8a55e-4a7d-4544-b31a-5e05d085109f.png)
+
+
+![Gauss_Seidel](https://user-images.githubusercontent.com/74304944/158992645-d0ea116d-4858-4991-9fbc-a3a7f9fd2e7a.png)
+
+![Jacobi_iteration](https://user-images.githubusercontent.com/74304944/158992658-83e85b1f-36ac-4abc-a18a-5b58ecd761f6.png)
+
+
+**Error Analysis**
+I have approximated the error as the distance between the approximation vector and solution vector with the usual metric. 
+It is clear that Gauss Seidel Method converges faster to the solution than Jacobi Iteration method.
