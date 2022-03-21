@@ -34,9 +34,9 @@ Code includes libraries: Numpy and Pyplot
 
 **Error Analysis**
 
-The code is an approximation of integral of the function e^x * cos(x) from 0 to pi.
-It is clear that the trapezoid rule is much effective in terms of approximation.
-However the computational power is the trade off.
+    The code is an approximation of integral of the function e^x * cos(x) from 0 to pi.
+    It is clear that the trapezoid rule is much effective in terms of approximation.
+    However the computational power is the trade off.
 
 
 
@@ -52,7 +52,8 @@ However the computational power is the trade off.
 
 
 **Error Analysis**
-It can be noticed that the local errors of the method accumulates over iterations hence the error increases as t increases from the initial value 0. A method of reducing error would be to implement with a higher order runge-kutta method.
+
+    It can be noticed that the local errors of the method accumulates over iterations hence the error increases as t increases from the initial value 0. A  method of reducing error would be to implement with a higher order runge-kutta method.
 
 
 
@@ -71,5 +72,6 @@ It can be noticed that the local errors of the method accumulates over iteration
 
 
 **Error Analysis**
-I have approximated the error as the distance between the approximation vector and solution vector with the usual metric. 
-It is clear that Gauss Seidel Method converges faster to the solution than Jacobi Iteration method.
+
+    I have approximated the error as the distance between the approximation vector and solution vector with the usual metric. 
+    It is clear that Gauss Seidel Method converges faster to the solution than Jacobi Iteration method.
