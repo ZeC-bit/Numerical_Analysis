@@ -15,11 +15,9 @@ Code includes libraries: Numpy and Pyplot
 
 
 **Error Analysis**
-
-I have chosen a fixed x-value to compare the error of polynomials of different orders. 
+    I have chosen a fixed x-value to compare the error of polynomials of different orders. 
 As the order increases it is clear that the error is lower.
 However due to the runge's phenomenon, as the polynomial's order increase and further the x-value is from the nodes chosen, the error becomes significant.
-
 
 
 
